@@ -1,0 +1,12 @@
+/benchmark/benchmark
+/benchmark/benchmark.o
+
+/third_party/DrTopKSC/
+/third_party/gpu_selection/
+/third_party/raft/
+/third_party/rmm/
+/third_party/spdlog/
+/third_party/faiss/
+/third_party/libfaiss.so
+
+!/third_party/faiss/Makefile

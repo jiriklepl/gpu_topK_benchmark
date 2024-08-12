@@ -63,6 +63,3 @@ for i in "${!ARG[@]}"; do
 		done
 	done 
 done
-
-<<'COMMENT'
-COMMENT
