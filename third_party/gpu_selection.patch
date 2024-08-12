@@ -1,0 +1,39 @@
+diff -ru --new-file gpu_selection-master/CMakeLists.txt gpu_selection/CMakeLists.txt
+--- gpu_selection-master/CMakeLists.txt	2021-03-22 18:36:18.000000000 +0100
++++ gpu_selection/CMakeLists.txt	2024-08-12 17:02:17.314916904 +0200
+@@ -1,6 +1,6 @@
+ cmake_minimum_required(VERSION 3.8 FATAL_ERROR)
+ project(gpu_selection LANGUAGES CXX CUDA)
+ 
+-list(APPEND CMAKE_CUDA_FLAGS "-arch=sm_35 -rdc=true --maxrregcount 64 -gencode=arch=compute_35,code=sm_35 -gencode=arch=compute_50,code=sm_50 -gencode=arch=compute_52,code=sm_52 -gencode=arch=compute_60,code=sm_60 -gencode=arch=compute_70,code=sm_70 -gencode=arch=compute_70,code=compute_70 -gencode=arch=compute_80,code=sm_80 -gencode=arch=compute_80,code=compute_80")
++list(APPEND CMAKE_CUDA_FLAGS "-arch=sm_80 -rdc=true --maxrregcount 64")
++option(BUILD_SHARED_LIBS "" ON)
+ add_subdirectory(lib)
+-add_subdirectory(app)
+diff -ru --new-file gpu_selection-master/include/cuda_definitions.cuh gpu_selection/include/cuda_definitions.cuh
+--- gpu_selection-master/include/cuda_definitions.cuh	2021-03-22 18:36:18.000000000 +0100
++++ gpu_selection/include/cuda_definitions.cuh	2024-08-12 17:01:42.854920009 +0200
+@@ -21,9 +21,9 @@
+ 
+ namespace gpu {
+ 
+-using index = std::uint32_t;
+-using poracle = std::uint32_t;
+-using oracle = std::uint32_t;
++using index = int;
++using poracle = int;
++using oracle = int;
+ using mask = std::uint32_t;
+ 
+ constexpr index warp_size_log2 = 5;
+diff -ru --new-file gpu_selection-master/include/verification.hpp gpu_selection/include/verification.hpp
+--- gpu_selection-master/include/verification.hpp	2021-03-22 18:36:18.000000000 +0100
++++ gpu_selection/include/verification.hpp	2024-08-12 17:01:42.854920009 +0200
+@@ -17,6 +17,7 @@
+ #ifndef GPU_SELECTION_VERIFICATION_HPP
+ #define GPU_SELECTION_VERIFICATION_HPP
+ 
++#include <limits>
+ #include <tuple>
+ #include <vector>
+ #include <cuda_definitions.cuh>
