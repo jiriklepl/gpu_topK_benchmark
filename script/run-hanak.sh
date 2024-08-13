@@ -23,7 +23,7 @@ for i in "${!ARG[@]}"; do
 	for n_power in 15 16 17 18 19 20; do
 		bs=$(((2 ** 30) / (2 ** n_power)))
 
-		for k_power in {3..10}; do
+		for k_power in {3..11}; do
 			N=$((2 ** n_power))
 			k=$((2 ** k_power))
 
