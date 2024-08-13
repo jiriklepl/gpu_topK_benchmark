@@ -110,9 +110,9 @@ def plot(file, hostname, jobid):
             linestyle=":",
             label="Theoretical peak throughput")
         
-        ax.set_xlim([8, 2048])
+        ax.set_xlim([2 ** i for i in [5, 11]])
         ax.set_xscale("log", base=2)
-        ax.set_xticks([2 ** i for i in range(3, 12)])
+        ax.set_xticks([2 ** i for i in range(5, 12)])
 
         for group, algorithm in group.groupby("algorithm"):
             ax.plot(

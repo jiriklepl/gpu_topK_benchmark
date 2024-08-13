@@ -12,7 +12,7 @@ AlgoNames=( faiss_warp faiss_block raft_radix_11bits_extra_pass grid_select)
 ARG=('-w 10 -c ' '-w 10 -c -g ' '-w 10 -c -r 12')
 DIST=('Uniform' 'Normal' 'Unfriendly')
 
-echo ${StrNames}>${out_file}
+echo ${StrNames} > ${out_file}
 echo echo "Errorlog" > ${err_file}
 
 
