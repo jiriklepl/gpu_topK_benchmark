@@ -1,0 +1,1919 @@
+echo Errorlog
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x149550629590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x149550629640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x152310029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x152310029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_128_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_128_(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x1540ac429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x1540ac429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x150697229590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x150697229640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x148be3229590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x148be3229640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x147d2b029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x147d2b029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14a34aa29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14a34aa29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14e7dfe29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14e7dfe29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x15546e429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x15546e429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_128_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_128_(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x1492ca029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x1492ca029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14d1b8429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14d1b8429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x15151f229590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x15151f229640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14b89f229590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14b89f229640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x155485a29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x155485a29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14a572029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14a572029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x150628629590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x150628629640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_128_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_128_(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14dfc4a29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14dfc4a29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x1486ad029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x1486ad029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x150aa2229590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x150aa2229640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x146883029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x146883029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x150780a29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x150780a29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x148290629590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x148290629640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x1484f1029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x1484f1029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_128_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_128_(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14f428a29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14f428a29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x146da8829590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x146da8829640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x149f2a429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x149f2a429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14b5f1e29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14b5f1e29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x15414c629590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x15414c629640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x145ac8429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x145ac8429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14f22b629590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14f22b629640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_128_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_128_(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14d191c29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14d191c29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14bb76429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14bb76429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14adf4e29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14adf4e29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x15469c829590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x15469c829640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x153d5b029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x153d5b029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14b40fa29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14b40fa29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14f08e629590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14f08e629640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_128_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_128_(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14970ce29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14970ce29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x148ee9629590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x148ee9629640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x148229e29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x148229e29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14d668a29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14d668a29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14bad3429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14bad3429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x147610829590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x147610829640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x149a9f229590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x149a9f229640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_128_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_128_(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14ada6429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14ada6429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x150288029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x150288029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x151a1a029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x151a1a029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x1510e8429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x1510e8429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14efaf029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14efaf029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x147b61029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x147b61029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x155196c29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x155196c29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_128_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_128_(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x1508eac29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x1508eac29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14bdce229590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14bdce229640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14cb17429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14cb17429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x149369a29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x149369a29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x149668829590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x149668829640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x15466bc29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x15466bc29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14cf2ec29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14cf2ec29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_128_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_128_(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x1515d8229590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x1515d8229640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14f7cae29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14f7cae29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x147810629590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x147810629640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14ceeee29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14ceeee29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14591b429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14591b429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x151337429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x151337429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14d375229590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14d375229640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_128_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_128_(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14db5ee29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14db5ee29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14924b229590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14924b229640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14d490829590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14d490829640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14f786629590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14f786629640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x151632e29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x151632e29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x15544c029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x15544c029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x154d2f629590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x154d2f629640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_128_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_128_(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x146f29229590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x146f29229640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x1517afc29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x1517afc29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x1548ed629590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x1548ed629640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x148566029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x148566029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x151542429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x151542429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x152097429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x152097429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14e669829590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14e669829640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_128_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_128_(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14dbf9629590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14dbf9629640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x150cc0429590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x150cc0429640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x1511cf229590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x1511cf229640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14a05f229590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14a05f229640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x1456d7c29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x1456d7c29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_32_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat32.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14c3fca29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14c3fca29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_64_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat64.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x1476cf829590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x1476cf829640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_128_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_128_(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat128.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x147536629590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x147536629640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_256_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloat256.cu:14; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x148335029590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x148335029640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_512_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF512.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14f2a0829590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14f2a0829640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_1024_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF1024.cu:13; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x152718229590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x152718229640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runWarpSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/warpselect/WarpSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+Faiss assertion 'err__ == cudaSuccess' failed in void faiss::gpu::runBlockSelect_float_false_2048_(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/blockselect/BlockSelectFloatF2048.cu:15; details: CUDA error 209 no kernel image is available for execution on the device
+terminate called after throwing an instance of 'raft::cuda_error'
+  what():  CUDA error encountered at: file=../third_party/raft/cpp/include/raft/matrix/detail/select_radix.cuh line=679: call='cudaOccupancyMaxActiveBlocksPerMultiprocessor( &active_blocks, radix_kernel<T, IdxT, BitsPerPass, BlockSize, false>, BlockSize, 0)', Reason=cudaErrorNoKernelImageForDevice:no kernel image is available for execution on the device
+Obtained 10 stack frames
+#0 in ../benchmark/benchmark() [0x4241cf]
+#1 in ../benchmark/benchmark() [0x424923]
+#2 in ../benchmark/benchmark() [0x42e6a5]
+#3 in ../benchmark/benchmark() [0x445c80]
+#4 in ../benchmark/benchmark() [0x44658b]
+#5 in ../benchmark/benchmark() [0x40cf3e]
+#6 in ../benchmark/benchmark() [0x4094be]
+#7 in /lib64/libc.so.6(+0x29590) [0x14a1cdc29590]
+#8 in /lib64/libc.so.6(__libc_start_main+0x80) [0x14a1cdc29640]
+#9 in ../benchmark/benchmark() [0x40a185]
+
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
