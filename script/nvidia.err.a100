@@ -1,340 +1,4 @@
 echo Errorlog
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.442856
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.806697
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.653345
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.220375
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.396902
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.150524
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.453261
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.0958523
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.0954385
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.602551
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.602499
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.855663
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.680631
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.177228
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.265781
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.625682
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.455908
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.476635
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.711059
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.401098
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.460932
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.0269613
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.809047
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.596011
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.987289
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.674201
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.437241
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.746831
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.0101444
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.879262
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.855068
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.954151
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.643623
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.923218
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.29731
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.60772
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.781466
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.744195
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.0459475
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.752535
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.663945
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.101712
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.394306
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.00108525
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.650289
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.227086
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.408988
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.0314315
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.220297
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.521327
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.501704
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.855538
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.376966
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.168707
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.833866
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.874396
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.295548
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.29343
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.34729
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.97723
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
 terminate called after throwing an instance of 'nv::CudaException'
   what():  test_util.h:163: CUDA error 2: out of memory
 terminate called after throwing an instance of 'nv::CudaException'
@@ -479,182 +143,139 @@ terminate called after throwing an instance of 'nv::CudaException'
   what():  test_util.h:163: CUDA error 2: out of memory
 terminate called after throwing an instance of 'nv::CudaException'
   what():  test_util.h:163: CUDA error 2: out of memory
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.24995
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.763224
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.447393
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.709108
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.12502
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.953094
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.00435439
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.980777
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.479065
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.665603
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.04471
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-error: k must < len, but len=1024, k=1024
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.250984
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=-0.555941
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=2.4326
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-error: k must < len, but len=32768, k=32768
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.660341
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.951772
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.333344
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=-2.06484
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=-0.727764
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=1.45727
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=-0.165832
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=1.49241
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
-error: k must < len, but len=1048576, k=1048576
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=-1.3507
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=-0.386274
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.26456
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=-0.445247
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.449611
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.397714
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=2.29639
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=-0.450435
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
-Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
-Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<float, 2, true>&, faiss::gpu::Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
-i=32, idx1[i]=0, v1[i]=0, but in[0]=0.619044
-terminate called after throwing an instance of '(anonymous namespace)::CheckException'
-  what():  ERROR [test_util.h::check_result()]: v1[]/idx1[] not match in[]
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory

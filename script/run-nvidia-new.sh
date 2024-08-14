@@ -22,7 +22,7 @@ for i in "${!ARG[@]}"; do
 	dist=${DIST[i]}
 	for bs in 200 400 600 800 1000; do
 		for n_power in 20 21 22 23 24 25; do
-			for k_power in {5..12}; do
+			for k_power in {5..11}; do
 				N=$((2 ** n_power))
 				k=$((2 ** k_power))
 
