@@ -1,0 +1,1635 @@
+echo Errorlog
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  test_util.h:163: CUDA error 2: out of memory
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+error: k must < len, but len=1024, k=1024
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+error: k must < len, but len=32768, k=32768
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+error: k must < len, but len=1048576, k=1048576
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+Faiss assertion 'k <= 2048' failed in void faiss::gpu::runWarpSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/WarpSelectFloat.cu:53
+Faiss assertion 'k <= GPU_MAX_SELECTION_K' failed in void faiss::gpu::runBlockSelect(Tensor<float, 2, true>&, Tensor<float, 2, true>&, Tensor<int, 2, true>&, bool, int, cudaStream_t) at faiss/gpu/utils/BlockSelectFloat.cu:53
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
+terminate called after throwing an instance of 'nv::CudaException'
+  what():  ../include/warp_sort_topk.cuh:598: CUDA error 209: no kernel image is available for execution on the device
